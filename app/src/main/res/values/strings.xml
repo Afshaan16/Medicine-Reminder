@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Go Med</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_med">Med Reminder</string>
+    <string name="menu_health">Health Tips</string>
+    <string name="menu_first">First Aid Tips</string>
+    <string name="menu_notes">Notes</string>
+    <string name="menu_bmi">BMI Calculator</string>
+    <string name="menu_report">Report</string>
+
+    <string name="menu_hosp">Hospital</string>
+    <string name="menu_doc">Doctor</string>
+    <string name="menu_medical">Medical</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_send">About Us</string>
+    <string name="menu_share">Share App</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Go Med</string>
+    <string name="slide_1_desc">Your Daily Medicine Reminder !</string>
+
+    <string name="slide_2_title">Go Med</string>
+    <string name="slide_2_desc">sometimes we take chances, sometimes we take pills !</string>
+
+    <string name="slide_3_title">Go Med</string>
+    <string name="slide_3_desc">Taking some fresh air is safer than taking a thousand pills !</string>
+
+    <string name="slide_4_title">Go Med</string>
+    <string name="slide_4_desc">Friendship is a wildly underrated medication !</string>
+
+    <string name="exit_app">You want to exit app ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="exit">Exit</string>
+
+    <string name="delete_app">You want to delete record ?</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="array_type">
+        <item>Select Type</item>
+        <item>Pill</item>
+        <item>Solution</item>
+        <item>Injection</item>
+        <item>Powder</item>
+        <item>Drops</item>
+        <item>Inhaler</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="array_unit">
+        <item>g</item>
+        <item>UI</item>
+        <item>mcg</item>
+        <item>mcg/ml</item>
+        <item>mEq</item>
+        <item>mg</item>
+        <item>mg/ml</item>
+        <item>ml</item>
+        <item>%</item>
+    </string-array>
+
+    <string-array name="array_freq">
+        <item>Select Dose Frequency</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+</resources>

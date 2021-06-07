@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mhss.gomed.ui.fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_med_reminder"
+        android:name="com.mhss.gomed.ui.fragment.ReminderFragment"
+        android:label="@string/menu_med"
+        tools:layout="@layout/fragment_reminder" />
+
+    <fragment
+        android:id="@+id/nav_first"
+        android:name="com.mhss.gomed.ui.fragment.FirstAidFragment"
+        android:label="@string/menu_first"
+        tools:layout="@layout/fragment_first_aid" />
+
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.mhss.gomed.ui.fragment.NotesFragment"
+        android:label="@string/menu_notes"
+        tools:layout="@layout/fragment_notes" />
+
+    <fragment
+        android:id="@+id/nav_bmi"
+        android:name="com.mhss.gomed.ui.fragment.BMIFragment"
+        android:label="@string/menu_bmi"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.mhss.gomed.ui.fragment.ReportFragment"
+        android:label="@string/menu_report"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/nav_health"
+        android:name="com.mhss.gomed.ui.fragment.HealthFragment"
+        android:label="@string/menu_health"
+        tools:layout="@layout/fragment_health_tips" />
+
+    <fragment
+        android:id="@+id/nav_hosp"
+        android:name="com.mhss.gomed.ui.fragment.HospitalFragment"
+        android:label="@string/menu_hosp"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_doc"
+        android:name="com.mhss.gomed.ui.fragment.DoctorFragment"
+        android:label="@string/menu_doc"
+        tools:layout="@layout/fragment_doctor" />
+
+
+    <fragment
+        android:id="@+id/nav_medical"
+        android:name="com.mhss.gomed.ui.fragment.MedicalFragment"
+        android:label="@string/menu_med"
+        tools:layout="@layout/fragment_medical" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.mhss.gomed.ui.fragment.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.mhss.gomed.ui.fragment.AboutUsFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_about_us" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.mhss.gomed.ui.fragment.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+</navigation>
